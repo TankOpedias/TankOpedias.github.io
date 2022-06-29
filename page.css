@@ -1,0 +1,43 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+header {
+    margin: 10px 0 20px 0;
+}
+
+.nom-site {
+    display: inline;
+    position: relative;
+    left: 71vw;
+
+    
+}
+.navigation-bar ul{
+    display: flex;
+    background-color: grey;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.navigation-bar ul li{
+    padding-left: 20vw;
+}
+.début {
+    background-image: url(images/char.png);
+    background-repeat: no-repeat;
+    padding-top: 50px;
+}
+footer{
+    display: flex;
+    position: absolute;
+    bottom: 0;
+}
+footer h4 {
+    padding-left: 10px;
+}
